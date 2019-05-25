@@ -28,3 +28,15 @@ main div {
   display: flex;
   justify-content: center;
 }
+input#searchInput {
+  width: 440px;
+  margin: 24px;
+  height: 44px;
+  border-radius: 44px;
+  border: 1px solid #ddd;
+  padding: 0 24px;
+}
+#searchInput:focus,
+#searchInput:hover {
+  box-shadow: #ddd 0 2px;
+}
